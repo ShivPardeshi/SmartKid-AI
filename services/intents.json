@@ -1,0 +1,77 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "how are you",
+        "what's up",
+        "whats up",
+        "greetings",
+        "hi there",
+        "hello there"
+      ],
+      "responses": [
+        "Hello! I'm SmartKid AI — your learning buddy! What would you like to explore today?",
+        "Hi there! Ask me anything about animals, space, science, or math!",
+        "Hey! Ready to learn something awesome? Pick a topic or type your question!"
+      ]
+    },
+    {
+      "tag": "educational_query",
+      "patterns": [
+        "tell me about",
+        "what is",
+        "what are",
+        "what's",
+        "whats",
+        "who is",
+        "who are",
+        "explain",
+        "how does",
+        "how do",
+        "how is",
+        "how are",
+        "why is",
+        "why are",
+        "why do",
+        "why does",
+        "can you teach me",
+        "i want to learn",
+        "teach me",
+        "help me understand",
+        "describe",
+        "define"
+      ],
+      "responses": [
+        "Great question about {entity}! {fact}",
+        "Let me explain {entity} in a simple way: {fact}"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see ya",
+        "talk later",
+        "i am leaving",
+        "have a good day",
+        "good night",
+        "gotta go",
+        "catch you later"
+      ],
+      "responses": [
+        "Goodbye! Keep asking questions — that's how super learners grow!",
+        "See you later! Come back anytime you want to learn more!",
+        "Bye for now! Stay curious and keep exploring!"
+      ]
+    }
+  ]
+}
