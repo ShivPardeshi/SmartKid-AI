@@ -16,6 +16,7 @@
       "bundleIdentifier": "com.anonymous.SmartKidAI"
     },
     "android": {
+      "package": "com.anonymous.SmartKidAI",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -29,6 +30,11 @@
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f86f06e0-0456-4867-b934-02f41fef0112"
+      }
+    }
   }
 }

@@ -224,7 +224,7 @@ const UNSAFE_SENTENCE_PATTERNS = [
   /\b(kill|killed|killing|murder|war|wars|weapon|weapons|bomb|terror|suicide|abuse|torture)\b/i,
   /\b(sexual|pornograph|nude|naked)\b/i,
   /\b(drugs?|cocaine|heroin|meth)\b/i,
-];
+]; 
 
 const applyKidWordMap = (text: string): string => {
   let result = text;
